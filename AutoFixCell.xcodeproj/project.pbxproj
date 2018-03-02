@@ -15,6 +15,9 @@
 		BC3D62CC2048D33B000BF19C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3D62CB2048D33B000BF19C /* main.m */; };
 		BC3D62D62048D33B000BF19C /* AutoFixCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3D62D52048D33B000BF19C /* AutoFixCellTests.m */; };
 		BC3D62E12048D33B000BF19C /* AutoFixCellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3D62E02048D33B000BF19C /* AutoFixCellUITests.m */; };
+		BC3D62F12048D50A000BF19C /* GoodTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3D62EF2048D50A000BF19C /* GoodTableViewCell.m */; };
+		BC3D62F22048D50A000BF19C /* GoodTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC3D62F02048D50A000BF19C /* GoodTableViewCell.xib */; };
+		BC3D62F52048E3C6000BF19C /* CellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3D62F42048E3C6000BF19C /* CellModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		BC3D62DC2048D33B000BF19C /* AutoFixCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoFixCellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC3D62E02048D33B000BF19C /* AutoFixCellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoFixCellUITests.m; sourceTree = "<group>"; };
 		BC3D62E22048D33B000BF19C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC3D62EE2048D50A000BF19C /* GoodTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoodTableViewCell.h; sourceTree = "<group>"; };
+		BC3D62EF2048D50A000BF19C /* GoodTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoodTableViewCell.m; sourceTree = "<group>"; };
+		BC3D62F02048D50A000BF19C /* GoodTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoodTableViewCell.xib; sourceTree = "<group>"; };
+		BC3D62F32048E3C6000BF19C /* CellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellModel.h; sourceTree = "<group>"; };
+		BC3D62F42048E3C6000BF19C /* CellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +118,11 @@
 				BC3D62C72048D33B000BF19C /* LaunchScreen.storyboard */,
 				BC3D62CA2048D33B000BF19C /* Info.plist */,
 				BC3D62CB2048D33B000BF19C /* main.m */,
+				BC3D62EE2048D50A000BF19C /* GoodTableViewCell.h */,
+				BC3D62EF2048D50A000BF19C /* GoodTableViewCell.m */,
+				BC3D62F02048D50A000BF19C /* GoodTableViewCell.xib */,
+				BC3D62F32048E3C6000BF19C /* CellModel.h */,
+				BC3D62F42048E3C6000BF19C /* CellModel.m */,
 			);
 			path = AutoFixCell;
 			sourceTree = "<group>";
@@ -240,6 +253,7 @@
 			files = (
 				BC3D62C92048D33B000BF19C /* LaunchScreen.storyboard in Resources */,
 				BC3D62C62048D33B000BF19C /* Assets.xcassets in Resources */,
+				BC3D62F22048D50A000BF19C /* GoodTableViewCell.xib in Resources */,
 				BC3D62C42048D33B000BF19C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +281,8 @@
 			files = (
 				BC3D62C12048D33B000BF19C /* ViewController.m in Sources */,
 				BC3D62CC2048D33B000BF19C /* main.m in Sources */,
+				BC3D62F12048D50A000BF19C /* GoodTableViewCell.m in Sources */,
+				BC3D62F52048E3C6000BF19C /* CellModel.m in Sources */,
 				BC3D62BE2048D33B000BF19C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
