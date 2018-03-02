@@ -1,0 +1,2 @@
+# UITableViewCellAutomaticDimension
+使用xib、autolayout方式实现TableViewCell自适应高度，不需要实现复杂的动态计算高度
